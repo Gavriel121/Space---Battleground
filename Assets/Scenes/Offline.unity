@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -776,7 +776,7 @@ MonoBehaviour:
   offlineScene: Assets/Scenes/Offline.unity
   onlineScene: Assets/Scenes/Room.unity
   transport: {fileID: 1184959450}
-  networkAddress: ec2-18-184-141-24.eu-central-1.compute.amazonaws.com
+  networkAddress: localhost
   maxConnections: 100
   authenticator: {fileID: 0}
   playerPrefab: {fileID: 1674004198306054741, guid: 6e3b877d52b273646bf2d38c7c63d575,
